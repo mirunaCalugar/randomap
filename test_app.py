@@ -8,7 +8,7 @@ class BasicTestCase(unittest.TestCase):
         # Create a test client
         tester = app.test_client(self)
 
-        # Make a GET request to the home page
+       
         response = tester.get('/', content_type='html/text')
 
        
