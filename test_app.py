@@ -11,7 +11,7 @@ class BasicTestCase(unittest.TestCase):
         # Make a GET request to the home page
         response = tester.get('/', content_type='html/text')
 
-        # Assert that the status code is 200 (OK)
+       
         self.assertEqual(response.status_code, 200)
 
         # Assert that the response data contains our app's title
