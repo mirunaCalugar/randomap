@@ -5,7 +5,7 @@ class BasicTestCase(unittest.TestCase):
 
     def test_home(self):
         """Test the home page loads correctly."""
-        # Create a test client
+        # Create a test 
         tester = app.test_client(self)
 
        
